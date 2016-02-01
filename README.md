@@ -36,7 +36,7 @@
                          along with subject, activity id and activity.
 
 ## Step 4:
-### assign_descriptive_var_names : 
+### assign_descriptive_var_names : Labels the data set with descriptive variable names
   #### Input Params: 
     `columnNames` : The column names of the whole data set obtained from funtion 'select_mean_stddev'
      
