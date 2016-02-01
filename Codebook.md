@@ -53,8 +53,8 @@ Description: A code book describing the variables, the data, and any transformat
 
 ## Transformations 
 
-   The 'UCI HAR Dataset' contains  both train and test set.
-   By running 'run_analysis.R' script only the columns containing Mean and Standard Deviation data were taken into account.
-   Please refer 'README.md' for more on how 'run_analysis.R' script does the transformation.
-   The final data contains the Mean & Standard observations at per subject per activity level. 
-   The words in column names were renamed to Time,  FFT, Accelearation, Magnitude, Frequency, Mean , Std
+   - The 'UCI HAR Dataset' contains  both train and test set.
+   - By running 'run_analysis.R' script only the columns containing Mean and Standard Deviation data were taken into account.
+   - Please refer 'README.md' for more on how 'run_analysis.R' script does the transformation.
+   - The final data contains the Mean & Standard observations at per subject per activity level. 
+   - The words in column names were renamed to Time,  FFT, Accelearation, Magnitude, Frequency, Mean , Std
