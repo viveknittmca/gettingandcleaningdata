@@ -92,7 +92,7 @@ assign_descriptive_var_names <- function(columnNames) {
 
 # Step 5 of the assignment 
 # a) Produces tidy data having averages of each measurement per activity per subject
-produce_tidy_set <- function(data_set, path_to_tidyset_file) {
+produce_tidy_set <- function(data_set, tidyset_file) {
 
     #melt the data
     melted_data <- melt(data_set, id=c("Subject","Activity_Id","Activity"))
@@ -101,7 +101,7 @@ produce_tidy_set <- function(data_set, path_to_tidyset_file) {
     tidy_data <- dcast(melted_data, formula = Subject + Activity_Id + Activity ~ variable, mean)
     
     # write the output into a file
-    write.table(tidy_data, file=path_to_tidyset_file, sep="\t", row.names=FALSE)
+    write.table(tidy_data, file=tidyset_file, sep="\t", row.names=FALSE)
 }
 
 
