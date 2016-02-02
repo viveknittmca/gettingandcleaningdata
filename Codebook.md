@@ -34,7 +34,8 @@ It contains 69 columns as follows:
 * "Activity"    :  6 different activities which the volunteer carried out.
                     (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
                 
-* The average of (mean and standard deviation) of the list of variables measured during the experiment
+ The following are the mean and the standard deviation of the various measures captured during the experiment
+
 * "Time.BodyAcceleration.Mean.X"
 * "Time.BodyAcceleration.Mean.Y"
 * "Time.BodyAcceleration.Mean.Z"
