@@ -26,13 +26,15 @@ Description: A code book describing the variables, the data, and any transformat
 ## Variables
 
 ### TIDY DATA:
- It contains 69 columns as follows:
-1. "Subject"     : ID number of the volunteer upon whom the experiment was performed
-2. "Activity_Id" : ID number for each of the activities listed in the order under "Activity"	
-3. "Activity"    :  6 different activities which the volunteer carried out.
+
+It contains 69 columns as follows:
+
+* "Subject"     : ID number of the volunteer upon whom the experiment was performed
+* "Activity_Id" : ID number for each of the activities listed in the order under "Activity"	
+* "Activity"    :  6 different activities which the volunteer carried out.
                     (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
                 
-4. The average of (mean and standard deviation) of the list of variables measured during the experiment
+* The average of (mean and standard deviation) of the list of variables measured during the experiment
 * "Time.BodyAcceleration.Mean.X"
 * "Time.BodyAcceleration.Mean.Y"
 * "Time.BodyAcceleration.Mean.Z"
