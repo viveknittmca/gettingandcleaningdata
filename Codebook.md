@@ -24,6 +24,89 @@ Description: A code book describing the variables, the data, and any transformat
    - subject_test.txt: A integer vector of around 3K entities having subject ID for the observations in test set: 
    
 ## Variables
+
+### TIDY DATA:
+ It contains 69 columns as follows:
+1. "Subject"     : ID number of the volunteer upon whom the experiment was performed
+2. "Activity_Id" : ID number for each of the activities listed in the order under "Activity"	
+3. "Activity"    :  6 different activities which the volunteer carried out.
+                    (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+                
+4. The average of (mean and standard deviation) of the list of variables measured during the experiment
+* "Time.BodyAcceleration.Mean.X"
+* "Time.BodyAcceleration.Mean.Y"
+* "Time.BodyAcceleration.Mean.Z"
+* "Time.GravityAcceleration.Mean.X"
+* "Time.GravityAcceleration.Mean.Y"
+* "Time.GravityAcceleration.Mean.Z"
+* "Time.BodyAccelerationJerk.Mean.X"
+* "Time.BodyAccelerationJerk.Mean.Y"
+* "Time.BodyAccelerationJerk.Mean.Z"
+* "Time.BodyGyro.Mean.X"
+* "Time.BodyGyro.Mean.Y"
+* "Time.BodyGyro.Mean.Z"
+* "Time.BodyGyroJerk.Mean.X"
+* "Time.BodyGyroJerk.Mean.Y"
+* "Time.BodyGyroJerk.Mean.Z"
+* "Time.BodyAccelerationMagnitude.Mean"
+* "Time.GravityAccelerationMagnitude.Mean"
+* "Time.BodyAccelerationJerkMagnitude.Mean"
+* "Time.BodyGyroMagnitude.Mean"
+* "Time.BodyGyroJerkMagnitude.Mean"
+* "FFT.BodyAcceleration.Mean.X"
+* "FFT.BodyAcceleration.Mean.Y"
+* "FFT.BodyAcceleration.Mean.Z"
+* "FFT.BodyAccelerationJerk.Mean.X"
+* "FFT.BodyAccelerationJerk.Mean.Y"
+* "FFT.BodyAccelerationJerk.Mean.Z"
+* "FFT.BodyGyro.Mean.X"
+* "FFT.BodyGyro.Mean.Y"
+* "FFT.BodyGyro.Mean.Z"
+* "FFT.BodyAccelerationMagnitude.Mean"
+* "FFT.BodyBodyAccelerationJerkMagnitude.Mean"
+* "FFT.BodyBodyGyroMagnitude.Mean"
+* "FFT.BodyBodyGyroJerkMagnitude.Mean"
+* "Time.BodyAcceleration.Std.X"
+* "Time.BodyAcceleration.Std.Y"
+* "Time.BodyAcceleration.Std.Z"
+* "Time.GravityAcceleration.Std.X"
+* "Time.GravityAcceleration.Std.Y"
+* "Time.GravityAcceleration.Std.Z"
+* "Time.BodyAccelerationJerk.Std.X"
+* "Time.BodyAccelerationJerk.Std.Y"
+* "Time.BodyAccelerationJerk.Std.Z"
+* "Time.BodyGyro.Std.X"
+* "Time.BodyGyro.Std.Y"
+* "Time.BodyGyro.Std.Z"
+* "Time.BodyGyroJerk.Std.X"
+* "Time.BodyGyroJerk.Std.Y"
+* "Time.BodyGyroJerk.Std.Z"
+* "Time.BodyAccelerationMagnitude.Std"
+* "Time.GravityAccelerationMagnitude.Std"
+* "Time.BodyAccelerationJerkMagnitude.Std"
+* "Time.BodyGyroMagnitude.Std"
+* "Time.BodyGyroJerkMagnitude.Std"
+* "FFT.BodyAcceleration.Std.X"
+* "FFT.BodyAcceleration.Std.Y"
+* "FFT.BodyAcceleration.Std.Z"
+* "FFT.BodyAccelerationJerk.Std.X"
+* "FFT.BodyAccelerationJerk.Std.Y"
+* "FFT.BodyAccelerationJerk.Std.Z"
+* "FFT.BodyGyro.Std.X"
+* "FFT.BodyGyro.Std.Y"
+* "FFT.BodyGyro.Std.Z"
+* "FFT.BodyAccelerationMagnitude.Std"
+* "FFT.BodyBodyAccelerationJerkMagnitude.Std"
+* "FFT.BodyBodyGyroMagnitude.Std"
+* "FFT.BodyBodyGyroJerkMagnitude.Std"
+
+
+The above variables are mean and standard deviation of the time and frequency measures of 
+* Triaxial acceleration(X, Y & Z) from the accelerometer (total acceleration) 
+* The estimated body acceleration.
+* Magnitude of Gyroscopic Jerk
+
+
 ### combine_whole_data :
    -  X_train: contains the data of 'X_train.txt'
    -  X_test: contains the data of 'X_test.txt'
